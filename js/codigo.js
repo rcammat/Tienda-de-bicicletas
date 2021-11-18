@@ -39,10 +39,10 @@ function ventaBicicleta(){
 }
 
 function mostrarTotales(){
-    document.getElementById('totales').innerHTML="<h3>Bicicletas de Carretera: " +oTienda.numCarretera()+"</h3>";
-    document.getElementById('totales').innerHTML+="<h3>Bicicletas de Montaña: " +oTienda.numMontaña()+"</h3>";
-    document.getElementById('totales').innerHTML+="<h3>Total de bicicletas: " +oTienda.numTotal()+"</h3>";
-    document.getElementById('totales').innerHTML+="<h3>Total de ventas: " +oTienda.numVenta()+"</h3>";
+    document.getElementById('totales').innerHTML="<h3>Bicicletas de Carretera: " +oTienda.numCarretera+"</h3>";
+    document.getElementById('totales').innerHTML+="<h3>Bicicletas de Montaña: " +oTienda.numMontaña+"</h3>";
+    document.getElementById('totales').innerHTML+="<h3>Total de bicicletas: " +oTienda.numTotal+"</h3>";
+    document.getElementById('totales').innerHTML+="<h3>Total de ventas: " +oTienda.numVenta+"</h3>";
 }
 function listadoSeparado(){
     var oVentana = window.open("","Formularios");

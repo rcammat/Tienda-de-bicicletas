@@ -66,18 +66,18 @@ class Tienda{
         sTabla += "</tbody></table>";
         return sTabla;
     }
-    numCarretera(){
+    get numCarretera(){
         let arrayBicisCarretera = this.arrayBicis.filter(oCarretera => oCarretera instanceof Carretera);
         return arrayBicisCarretera.length;
     }
-    numMontaña(){
+     get numMontaña(){
         let arrayBicisMontaña = this.arrayBicis.filter(oMontaña => oMontaña instanceof Montaña);
         return arrayBicisMontaña.length;
     }
-    numTotal(){
+    get numTotal(){
         return this.arrayBicis.length;
     }
-    numVenta(){
+    get numVenta(){
         let arrayBicisVendida = this.arrayBicis.filter(oBici => oBici.bVendida==true);
         return arrayBicisVendida.length;
     }
